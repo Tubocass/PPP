@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-	public void LoadLevel (string name) {
-		Debug.Log ("Level Load Request for: " + name);
-		Application.LoadLevel (name);
-
-
+	// Use this for initialization
+	void Start () {
+		
 	}
-
-	public void QuitRequest(){
-		Debug.Log ("Have a great day!");
+	
+	// Update is called once per frame
+	void Update () {
+		
 	}
-
 }
