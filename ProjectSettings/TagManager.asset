@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Blunt
   - Joint
+  - Pinch
+  - HintText
+  - Canvas
+  - UI
+  - Strain
   layers:
   - Default
   - TransparentFX

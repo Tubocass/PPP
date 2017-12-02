@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{403EA176-9A09-AE7B-3AE7-FF4A2B7A0849}</ProjectGuid>
+    <ProjectGuid>{642250BB-1E43-80AA-5E40-6FF38AE0176F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,9 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Scripts\CannabisDrag.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\OnMouseOver.cs" />
      <Compile Include="Assets\Scripts\UI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Games and Software/Unity 2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
