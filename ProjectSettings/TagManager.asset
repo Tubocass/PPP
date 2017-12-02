@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Blunt
+  - Joint
+  - Pinch
+  - HintText
+  - Canvas
+  - UI
+  - Strain
   layers:
   - Default
   - TransparentFX

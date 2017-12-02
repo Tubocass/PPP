@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/JDoh_PlayScene.unity
+    guid: 6dc0ee6ed28d02942bcdba0b244f81c9
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 1e390abe412b70e468b2a8ebec786575
+  - enabled: 1
+    path: Assets/Scenes/JDoh_RollingScreen.unity
+    guid: 3c742bcd577c02946bce11332ecebce3

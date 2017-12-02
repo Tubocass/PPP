@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 4765f6f0582a06b449c7fd2cfc1fd382
+timeCreated: 1512248242
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RollingBpaper: {fileID: 1472749899160764, guid: ab818b5f34880af4588dbe272d9892de,
+      type: 2}
+  - RollingJpaper: {fileID: 1225348122124770, guid: 63da04adeba89f045af084fd98d55454,
+      type: 2}
+  - RollActionButton: {instanceID: 0}
+  - HintText: {instanceID: 0}
+  - Pinch: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
