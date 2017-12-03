@@ -19,7 +19,7 @@ public class Blunt : MonoBehaviour
 //	}
 	public void Puff()
 	{
-		anim.speed = 0.75f;
+		anim.speed = 0.5f;
 	}
 	public void EndPuff()
 	{
