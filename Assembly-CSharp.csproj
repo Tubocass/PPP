@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Breathung.cs" />
      <Compile Include="Assets\Scripts\Blunt.cs" />
      <Compile Include="Assets\Scripts\ButtonHold.cs" />
      <Compile Include="Assets\Scripts\CannabisDrag.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Scripts\Lungs.cs" />
      <Compile Include="Assets\Scripts\OnMouseOver.cs" />
      <Compile Include="Assets\Scripts\ScoreUI.cs" />
+     <Compile Include="Assets\Scripts\SmokingController.cs" />
      <Compile Include="Assets\Scripts\UI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

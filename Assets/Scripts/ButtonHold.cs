@@ -26,7 +26,7 @@ public class ButtonHold : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
 	void Update()
 	{
-		if(ableToHit && buttonPressed)
+		if(buttonPressed)
 		{
 			if(onHold !=null)
 			onHold.Invoke();
