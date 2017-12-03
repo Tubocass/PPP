@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonPressed: 0
+  ableToHit: 1
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -266,10 +267,10 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1505534466
+  randomSeed: 1916959476
   InitialModule:
     serializedVersion: 3
     enabled: 1

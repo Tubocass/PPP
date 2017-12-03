@@ -28,5 +28,6 @@ public class Blunt : MonoBehaviour
 	public void EndPuff()
 	{
 		anim.speed = 0;
+		smoke.Emit(8);
 	}
 }
