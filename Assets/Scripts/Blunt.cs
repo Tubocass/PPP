@@ -5,9 +5,11 @@ using UnityEngine;
 public class Blunt : MonoBehaviour 
 {
 	Animator anim;
+	ParticleSystem smoke;
 
 	void Awake()
 	{
+		smoke = GetComponentInChildren<ParticleSystem>();
 		anim = GetComponent<Animator>();
 		anim.Play("PuffAnim",0,0);
 		anim.speed = 0;
@@ -19,6 +21,8 @@ public class Blunt : MonoBehaviour
 //	}
 	public void Puff()
 	{
+		if(smoke.isStopped)
+			smoke.Play();
 		anim.speed = 0.5f;
 	}
 	public void EndPuff()

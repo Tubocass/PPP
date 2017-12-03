@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class ButtonHold : MonoBehaviour, IPointerDownHandler, IPointerUpHandler 
 {
-	public bool buttonPressed;
+	public bool buttonPressed, ableToHit = true;
 	public UnityEvent onClick , onHold, onRelease;
 
 	public void OnPointerDown(PointerEventData eventData)
@@ -17,13 +17,18 @@ public class ButtonHold : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 	public void OnPointerUp(PointerEventData eventData)
 	{
 		buttonPressed = false;
-		onRelease.Invoke();
+		if(ableToHit)
+		{
+			onRelease.Invoke();
+		}
+		ableToHit = true;
 	}
 
 	void Update()
 	{
-		if(buttonPressed)
+		if(ableToHit && buttonPressed)
 		{
+			if(onHold !=null)
 			onHold.Invoke();
 		}
 	}

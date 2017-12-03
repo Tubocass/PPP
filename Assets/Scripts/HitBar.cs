@@ -9,7 +9,8 @@ public class HitBar : MonoBehaviour
 	public float speed = 4f;
 	[SerializeField] ScoreUI ui;
 	Vector3 hitBarStart;
-	bool isMouseover, cough = false;
+	[SerializeField]ButtonHold button;
+	bool cough = false;
 	//Image image;
 	float length = 0, endPoint, perfectPoint;
 	float penalties, perfectLength;
@@ -29,20 +30,31 @@ public class HitBar : MonoBehaviour
 		
 	public void Inhale()
 	{
-		Vector3 hitPosition = hitBar.transform.localPosition;
-
-		if(hitBar.transform.localPosition.x<endPoint)
+		if(!button.ableToHit)
 		{
-			hitBar.transform.localPosition = Vector3.MoveTowards(hitPosition, new Vector3(endPoint,hitPosition.y,hitPosition.z), speed);
+			return;
 		}
-
+		Vector3 hitPosition = hitBar.transform.localPosition;
 		if(hitPosition.x>perfectPoint)
 		{
 			cough = true;
 		}
+		if(hitBar.transform.localPosition.x<endPoint)
+		{
+			hitBar.transform.localPosition = Vector3.MoveTowards(hitPosition, new Vector3(endPoint,hitPosition.y,hitPosition.z), speed);
+		}else{
+			//if(GetComponent<ButtonHold>().ableToHit)
+			//Release();
+			button.onRelease.Invoke();
+			button.ableToHit = false;
+		}
 	}
 	public void Release()
 	{
+		if(!button.ableToHit)
+		{
+			return;
+		}
 		float percentage;
 		if(cough)
 		{
@@ -52,11 +64,12 @@ public class HitBar : MonoBehaviour
 		}else {
 			percentage = (hitBar.transform.localPosition.x - hitBarStart.x)/perfectLength;
 		}
+
 		score = (int)(percentage*420);
 		ui.AddScore(score);
-
 		Reset();
 	}
+
 	void Reset()
 	{
 		hitBar.transform.localPosition = hitBarStart;
