@@ -19,19 +19,43 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: -483.62427, y: -395.8, z: 0}
+        value: {x: 6.09, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
+        time: 1.6666666
+        value: {x: 5.5, y: 0, z: 0}
+        inSlope: {x: -0.8090323, y: 0, z: 0}
+        outSlope: {x: -0.8090323, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
         time: 2.5833333
-        value: {x: -486, y: -395.8, z: 0}
-        inSlope: {x: -1.1372385, y: 0, z: 0}
-        outSlope: {x: -1.1372385, y: 0, z: 0}
+        value: {x: 4, y: 0, z: 0}
+        inSlope: {x: -1.6615385, y: 0, z: 0}
+        outSlope: {x: -1.6615385, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.8333333
+        value: {x: 1.9, y: 0, z: 0}
+        inSlope: {x: -1.4857142, y: 0, z: 0}
+        outSlope: {x: -1.4857142, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.3333335
+        value: {x: 1.25, y: 0, z: 0}
+        inSlope: {x: -1.404, y: 0, z: 0}
+        outSlope: {x: -1.404, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.6666665
+        value: {x: 0.73, y: 0, z: 0}
+        inSlope: {x: -1.3799998, y: 0, z: 0}
+        outSlope: {x: -1.3799998, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 5.166667
-        value: {x: -489.5, y: -395.8, z: 0}
+        value: {x: 0.1, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -310,19 +334,65 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -483.62427
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 5.166667
+        value: 0.25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: ShapeModule.radius.value
+    path: SmokeEffects
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.09
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1.6666666
+        value: 5.5
+        inSlope: -0.8090323
+        outSlope: -0.8090323
+        tangentMode: 136
+      - serializedVersion: 2
         time: 2.5833333
-        value: -486
-        inSlope: -1.1372385
-        outSlope: -1.1372385
+        value: 4
+        inSlope: -1.6615385
+        outSlope: -1.6615385
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 3.8333333
+        value: 1.9
+        inSlope: -1.4857142
+        outSlope: -1.4857142
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 4.3333335
+        value: 1.25
+        inSlope: -1.404
+        outSlope: -1.404
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 4.6666665
+        value: 0.73
+        inSlope: -1.3799998
+        outSlope: -1.3799998
         tangentMode: 136
       - serializedVersion: 2
         time: 5.166667
-        value: -489.5
+        value: 0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -338,19 +408,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -395.8
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 2.5833333
-        value: -395.8
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 5.166667
-        value: -395.8
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -370,40 +428,12 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 136
-      - serializedVersion: 2
-        time: 5.166667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: SmokeEffects
     classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 5.166667
-        value: 0.25
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: ShapeModule.radius.value
-    path: SmokeEffects
-    classID: 198
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0

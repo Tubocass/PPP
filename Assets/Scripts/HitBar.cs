@@ -8,6 +8,7 @@ public class HitBar : MonoBehaviour
 	public GameObject hitBar, perfectBar;
 	public float speed = 4f;
 	[SerializeField] ScoreUI ui;
+	[SerializeField] AudioSource coughSound;
 	Vector3 hitBarStart;
 	[SerializeField]ButtonHold button;
 	bool cough = false;
@@ -60,6 +61,7 @@ public class HitBar : MonoBehaviour
 		{
 			Debug.Log("Cough... cough");
 			//play cough audio
+			coughSound.Play();
 			percentage = .8f;
 		}else {
 			percentage = (hitBar.transform.localPosition.x - hitBarStart.x)/perfectLength;
