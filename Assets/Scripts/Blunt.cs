@@ -2,15 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Blunt : MonoBehaviour {
+public class Blunt : MonoBehaviour 
+{
+	Animator anim;
 
-	// Use this for initialization
-	void Start () {
-		
+	void Awake()
+	{
+		anim = GetComponent<Animator>();
+		anim.Play("PuffAnim",0,0);
+		anim.speed = 0;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+//	public void Smoke()
+//	{
+//		anim.SetBool("Smoke", true);
+//	}
+	public void Puff()
+	{
+		anim.speed = 0.75f;
+	}
+	public void EndPuff()
+	{
+		anim.speed = 0;
 	}
 }

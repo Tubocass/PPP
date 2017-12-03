@@ -2,15 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lungs : MonoBehaviour {
+public class Lungs : MonoBehaviour 
+{
+	Animator anim;
 
-	// Use this for initialization
-	void Start () {
-		
+	void Awake()
+	{
+		anim = GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void Inhale()
+	{
+		anim.SetTrigger("Inhale");
 	}
+
+	public void Exhale()
+	{
+		anim.SetTrigger("Exhale");
+	}
+
 }
