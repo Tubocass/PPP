@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: ed8535dda8e9de646adeb62e3e316de4
+timeCreated: 1512263340
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BluntAnim_0
+    21300002: BluntAnim_1
+    21300004: BluntAnim_2
+    21300006: BluntAnim_3
+    21300008: BluntAnim_4
+    21300010: BluntAnim_5
+    21300012: BluntAnim_6
+    21300014: BluntAnim_7
+    21300016: BluntAnim_8
+    21300018: BluntAnim_9
+    21300020: BluntAnim_10
+    21300022: BluntAnim_11
+    21300024: BluntAnim_12
+    21300026: BluntAnim_13
+    21300028: BluntAnim_14
+    21300030: BluntAnim_15
+    21300032: BluntAnim_16
+    21300034: BluntAnim_17
+    21300036: BluntAnim_18
+    21300038: BluntAnim_19
+    21300040: BluntAnim_20
+    21300042: BluntAnim_21
+    21300044: BluntAnim_22
+    21300046: BluntAnim_23
+    21300048: BluntAnim_24
+    21300050: BluntAnim_25
+    21300052: BluntAnim_26
+    21300054: BluntAnim_27
+    21300056: BluntAnim_28
+    21300058: BluntAnim_29
+    21300060: BluntAnim_30
+    21300062: BluntAnim_31
+    21300064: BluntAnim_32
+    21300066: BluntAnim_33
+    21300068: BluntAnim_34
+    21300070: BluntAnim_35
+    21300072: BluntAnim_36
+    21300074: BluntAnim_37
+    21300076: BluntAnim_38
+    21300078: BluntAnim_39
+    21300080: BluntAnim_40
+    21300082: BluntAnim_41
+    21300084: BluntAnim_42
+    21300086: BluntAnim_43
+    21300088: BluntAnim_44
+    21300090: BluntAnim_45
+    21300092: BluntAnim_46
+    21300094: BluntAnim_47
+    21300096: BluntAnim_48
+    21300098: BluntAnim_49
+    21300100: BluntAnim_50
+    21300102: BluntAnim_51
+    21300104: BluntAnim_52
+    21300106: BluntAnim_53
+    21300108: BluntAnim_54
+    21300110: BluntAnim_55
+    21300112: BluntAnim_56
+    21300114: BluntAnim_57
+    21300116: BluntAnim_58
+    21300118: BluntAnim_59
+    21300120: BluntAnim_60
+    21300122: BluntAnim_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BluntAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_3
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_4
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_5
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_6
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_7
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 868
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_10
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_11
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_12
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_13
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_14
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_15
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 744
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_17
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_18
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_19
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_20
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_21
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_22
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_23
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 620
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_25
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_26
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_27
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_28
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_29
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_30
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_31
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 496
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_33
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_34
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_35
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_36
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_37
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_38
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_39
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 372
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_41
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_42
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_43
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_44
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_45
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_46
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_47
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 248
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_49
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_50
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_51
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_52
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_53
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_54
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_55
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 124
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_57
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_58
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_59
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_60
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BluntAnim_61
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 0
+        width: 589
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
