@@ -21,25 +21,35 @@ public class HitBar : MonoBehaviour
 		perfectBar.transform.localPosition += new Vector3(length * .8f,0,0);
 	}
 
-	public void Update()
-	{
-		Vector3 hitPosition = hitBar.transform.localPosition;
-		if(isMouseover && Input.GetMouseButton(0))
-		{
-			if(hitBar.transform.localPosition.x<endPoint)
-			{
-				hitBar.transform.localPosition = Vector3.MoveTowards(hitPosition, new Vector3(endPoint,hitPosition.y,hitPosition.z), speed);
-				//hitPosition += Vector3.right;
-			}
-			if(hitPosition.x>perfectPoint)
-			{
-				cough = true;
-			}
-		}
-	}
+//	public void Update()
+//	{
+//		Vector3 hitPosition = hitBar.transform.localPosition;
+//		if(isMouseover && Input.GetMouseButton(0))
+//		{
+//			if(hitBar.transform.localPosition.x<endPoint)
+//			{
+//				hitBar.transform.localPosition = Vector3.MoveTowards(hitPosition, new Vector3(endPoint,hitPosition.y,hitPosition.z), speed);
+//				//hitPosition += Vector3.right;
+//			}
+//			if(hitPosition.x>perfectPoint)
+//			{
+//				cough = true;
+//			}
+//		}
+//	}
 	public void MouseOver()
 	{
-		isMouseover = true;
+		Vector3 hitPosition = hitBar.transform.localPosition;
+
+		if(hitBar.transform.localPosition.x<endPoint)
+		{
+			hitBar.transform.localPosition = Vector3.MoveTowards(hitPosition, new Vector3(endPoint,hitPosition.y,hitPosition.z), speed);
+		}
+
+		if(hitPosition.x>perfectPoint)
+		{
+			cough = true;
+		}
 	}
 
 }
